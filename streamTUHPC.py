@@ -69,10 +69,10 @@ with st.container():
             
 
 
-            st.write("First cracking Strees (psi): " , round(FCS_real, 4))
-            st.write("Strain at the first cracking (µ ε): " , round(SFC_real, 4))
-            st.write("Post-cracking stress (psi): " , round(PCS_real, 4))
-            st.write("Strain at post-cracking (µ ε): " , round(SPC_real, 4))
+            st.write("First cracking Strees (psi): " , np.round(FCS_real, decimals=4))
+            st.write("Strain at the first cracking (µ ε): " , np.round(SFC_real, decimals=4))
+            st.write("Post-cracking stress (psi): " , np.round(PCS_real, decimals=4))
+            st.write("Strain at post-cracking (µ ε): " , np.round(SPC_real, decimals=4))
 
 
 
